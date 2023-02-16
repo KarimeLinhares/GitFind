@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+.container {
+	height: 100vh;
+	background: url('../../Assets/background.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+.sub h4,
+.search,
+.repoTitle h3 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 1rem;
+}
+
+.sub h4 {
+	color: #999;
+}
+
+.repoTitle h3 {
+	color: #fff;
+}
+
+.button {
+	cursor: pointer;
+	border: 1px solid #999;
+	border-radius: 2rem;
+	background: #2d333b;
+	color: #fff;
+	box-sizing: border-box;
+	transition: 0.1s;
+	margin-left: 1rem;
+	padding: 0.6rem 1rem;
+	justify-content: center;
+	align-items: center;
+	transition: 0.2s;
+}
+
+.button {
+	font-size: 1rem;
+	font-family: 'Prompt', sans-serif;
+}
+
+.button:hover {
+	outline: none;
+	box-shadow: 0 0 0 3px #fff;
+}
+
+.input {
+	border: 1px solid #999;
+	border-radius: 2rem;
+	background: #161616;
+	display: block;
+	min-width: 35rem;
+	font-family: 'Prompt', sans-serif;
+	color: #999;
+	font-size: 0.8rem;
+	padding: 0.8rem;
+	transition: 0.2s;
+}
+
+.input:hover {
+	outline: none;
+	box-shadow: 0 0 0 3px #fff;
+}
+
+.wrapper {
+	max-width: 40rem;
+	padding: 0 1rem;
+	margin: 0 auto;
+}
+
+.perfil {
+	display: flex;
+	align-items: center;
+	margin: 2rem 0;
+	padding: 1rem 0;
+	border-bottom: 1px solid #999;
+}
+
+.profile {
+	width: 10rem;
+	height: 10rem;
+	border-radius: 50rem;
+	border: 1px solid #999;
+}
+
+.title {
+	font-family: 'Prompt', sans-serif;
+	color: #999;
+	margin-left: 1rem;
+}
+
+.title h3 {
+	font-size: 20px;
+}
+
+@media (max-width: 800px) {
+	.wrapper {
+		max-width: 20rem;
+	}
+
+	.profile {
+		width: 5rem;
+		height: 5rem;
+	}
+
+	.title {
+		font-size: 12px;
+	}
+
+	.input {
+		min-width: 5rem;
+	}
+}
